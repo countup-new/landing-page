@@ -1,0 +1,646 @@
+@import "typography"
+@import "variables"
+
+body
+  height: 100%
+  width: 100%
+  margin: 0
+  color: $countup-white
+  text-align: center
+  background: $countup-white
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  -webkit-font-smoothing: antialiased
+
+hr
+  border: 0
+  width: 200px
+  height: 1px
+  background-color: $countup-transparent-white
+
+
+
+.get-started-green
+  display : inline-block
+  height  : 30px
+  width: 130px
+  background-color: $countup-green
+  border: 0.5px solid rgba(255, 255, 255, 0.5)
+  font-size: 14px
+  font-family: $lato-regular
+  font-weight: 300
+
+
+button
+  border-radius: 100px
+  outline: none
+  color: $countup-white
+  &:hover
+    cursor: pointer
+
+a
+  text-decoration: none
+  color: $countup-white
+
+.landing-page, .how-it-works-page, .accountants-page, .framework-page, .pricing-page, .pricing-page-2, .testimonial-page, .featured-in-page, .get-started-page
+  width: 100%
+
+.landing-page-container, .how-it-works-container, .accountants-page-container, .framework-page-container, .pricing-page-container, .testimonial-page-container, .featured-in-page-container, .get-started-page-container
+  width: 100%
+  max-width: 1024px
+
+.landing-page, .landing-page-container
+  height: 100vh
+
+.get-started-button
+  display: inline-block
+    height: 30px
+    width: 90px
+    background-color: rgba(255, 255, 255, 0.1)
+    border: 0.5px solid rgba(255, 255, 255, 0.5)
+    font-size: 14px
+    font-family: $lato-regular
+
+
+.landing-page
+  background: $countup-background
+  display: flex
+  justify-content: center
+
+  .nav-container
+    position: fixed
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0, 0, 0, 0.3)
+    height: 64px
+    nav
+      display: flex
+      justify-content: space-between
+      align-items: center
+      width: 960px
+      .sticky-header-left
+        display: flex
+        justify-content: center
+        align-items: center
+        h6
+          margin-left: 30px
+          font-size: 14px
+          font-family: $lato-regular
+          font-weight: 300
+      .sign-in-button
+        display: inline-block
+        height: 30px
+        width: 90px
+        background-color: rgba(255, 255, 255, 0.1)
+        border: 0.5px solid rgba(255, 255, 255, 0.5)
+        font-size: 14px
+        font-family: $lato-regular
+        margin-right: 20px
+      .get-started-button
+        display: inline-block
+        height: 30px
+        width: 130px
+        background-color: $countup-green
+        border: 0.5px solid rgba(255, 255, 255, 0.5)
+        font-size: 14px
+        font-family: $lato-regular
+        font-weight: 300
+  .landing-page-container
+    h1
+      margin-top: 140px
+      font-family: $lato-light
+      font-weight: 300
+      font-size: 50px
+    h2
+      font-family: $lato-light
+      font-weight: 300
+      font-size: 24px
+    .icons-container
+      display: flex
+      justify-content: space-between
+      margin: 70px auto
+      width: 700px
+      .icon-holder
+        width: 180px
+        h4
+          font-family: $lato-medium
+          font-weight: 500
+          font-size: 16px
+          letter-spacing: 0.2px
+    .arrow-container
+      display: flex
+      justify-content: center
+      img
+        margin-right: 30px
+
+
+.how-it-works-page
+  background: $countup-white
+  color: $countup-purple
+  height: 550px
+  display: flex
+  justify-content: center
+  .how-it-works-container
+    h2
+      font-family: $lato-light
+      font-weight: 300
+      font-size: 40px
+      letter-spacing: 0.5px
+      margin: 50px 0px 30px 0px
+    hr
+      border: 0
+      width: 200px
+      height: 1px
+      background-color: $countup-dark-grey
+      margin-bottom: 100px
+    .how-it-works-card-container
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-top: 50px
+      hr
+        width: 1px
+        height: 100px
+        background-color: $countup-dark-grey
+        margin: 0 20px
+      .how-it-works-card
+        display: inline-block
+        background: $countup-grey
+        width: 250px
+        height: 220px
+        padding: 0 20px 25px 20px
+        img
+          margin-top: -30px
+        h3
+          font-family: $lato-semibold
+          font-weight: 500
+          font-size: 18px
+        hr
+          border: 0
+          width: 60px
+          height: 1px
+          background-color: $countup-dark-grey
+          margin: 0 auto
+        p
+          font-family: $lato-regular
+          font-size: 15px
+          line-height: 1.3
+          color: $countup-darkest-grey
+
+.accountants-page
+  background: $countup-background
+  display: flex
+  justify-content: center
+  padding: 50px 0px
+  .accountants-page-container
+    max-width: 900px
+    h2
+      font-size: 40px
+      font-family: $lato-light
+      font-weight: 300
+    h4
+      font-family: $lato-light
+      font-weight: 500
+      font-size: 19px
+      line-height: 1.5
+      letter-spacing: 0.5px
+    img
+      width: 860px
+
+    .accountants-page-footer
+      display: flex
+      justify-content: center
+      align-items: center
+      .accountants-bottom-card
+        h2
+          margin: 30px 0 0 0
+          font-size: 48px
+          font-family: $lato-light
+          font-weight: 300
+        h4
+          margin-top: 0px
+          line-height: 1.2
+          font-size: 24px
+          font-family: $lato-light
+          font-weight: 300
+      hr
+        width: 1px
+        height: 120px
+        background-color: rgba(255, 255, 255, 0.5)
+
+.framework-page
+  display: flex
+  justify-content: center
+  .framework-page-container
+    padding-bottom: 30px
+    h2
+      font-family: $lato-light
+      font-weight: 300
+      font-size: 40px
+      letter-spacing: 0.2px
+      color: $countup-purple
+    hr
+      background-color: $countup-dark-grey
+    .framework-details-container
+      margin-top: 50px
+      .framework-detail-card
+        display: inline-block
+        margin: 0 30px
+        width: 200px
+        img
+          height: 70px
+        h3
+          margin: 0
+          font-family: $lato-regular
+          font-weight: 300
+          font-size: 16px
+          letter-spacing: 0.2px
+          color: $countup-purple
+        h4
+          margin-top: 5px
+          font-family: $lato-regular
+          font-weight: 300
+          font-size: 14px
+          letter-spacing: 0.2px
+          color: $countup-dark-dark-grey
+      .framework-details-top
+        display: flex
+        justify-content: center
+        align-items: flex-start
+      .framework-details-middle
+        display: flex
+        justify-content: center
+        align-items: flex-start
+        margin: 20px 0px
+      .framework-details-bottom
+        display: flex
+        justify-content: center
+        align-items: flex-start
+
+.pricing-page
+  background: $countup-background
+  display: flex
+  justify-content: center
+  height: 850px
+  .pricing-page-container
+    h2
+      margin-top: 50px
+      font-size: 40px
+      font-family: $lato-light
+      font-weight: 300
+      letter-spacing: 0.2px
+    h4
+      font-family: $lato-light
+      font-weight: 300
+      font-size: 19px
+      color: $countup-white
+      letter-spacing: 0.2px
+      line-height: 1.6
+    hr
+      width: 200px
+      height: 1px
+      background: rgba(215, 215, 215, 0.5)
+      margin: 50px auto
+    table
+      margin: 0 auto
+      background: $countup-white
+      color: $countup-darkest-grey
+      border-collapse: collapse
+      .header-cell
+        background: $countup-grey
+        color: $countup-purple
+        font-family: $lato-bold
+        font-size: 17px
+        letter-spacing: 1.5px
+        text-align: center !important
+      th:first-of-type
+        text-align: left
+        font-size: 15px
+        font-family: $lato-light
+      th
+        height: 60px
+        width: 225px
+        padding: 20px 25px
+        box-sizing: border-box
+        font-size: 18px
+        font-family: $lato-bold
+        border: 1px solid $countup-dark-grey
+        h6
+          margin: 0
+          font-size: 12px
+          font-family: $lato-regular
+          font-weight: 500
+          color: $countup-light-grey
+        .total
+          display: flex
+          align-items: flex-start
+          justify-content: center
+          margin-top: 5px
+          .dollar
+            font-size: 20px
+          .price
+            font-size: 40px
+            margin-top: -8px
+          h4
+            margin: 0
+            font-size: 14px
+            font-family: $lato-semibold
+            font-weight: 500
+            color: $countup-darkest-grey
+    h5
+      line-height: 2.5
+      font-family: $lato-medium
+      font-weight: 500
+      font-size: 12px
+      color: $countup-black
+      text-align: left
+      padding-left: 7%
+
+.pricing-page-2
+  margin-top: 550px
+  h4
+    font-family: $lato-light
+    font-weight: 500
+    font-size: 19px
+    color: $countup-black
+    letter-spacing: 0.2px
+    line-height: 1.6
+  hr
+    width: 200px
+    height: 1px
+    background: rgba(215, 215, 215, 0.5)
+    margin: 50px auto 70px auto
+  .pricing-cards-container
+    display: flex
+    justify-content: center
+    margin: 50px 0px
+    .pricing-card
+      border: 1px solid $countup-grey
+      width: 200px
+      margin: 0 10px
+      padding-bottom: 10px
+      .pricing-card-top
+        background: $countup-grey
+        height: 75px
+        img
+          margin-top: -30px
+        h4
+          margin: 5px 0px 15px 0px
+          color: $countup-purple
+          font-family: $lato-semibold
+          font-weight: 500
+          font-size: 14px
+          letter-spacing: 1.2px
+          line-height: 1.2
+      .pricing-card-bottom
+        color: $countup-darkest-grey
+        h6
+          margin: 10px 0px 10px 0px
+          font-size: 12px
+          font-family: $lato-regular
+          font-weight: 300
+          color: $countup-light-grey
+        .total
+          display: flex
+          align-items: flex-start
+          justify-content: center
+          margin: 5px 0px 10px 0px
+          .dollar
+            font-size: 20px
+            font-family: $lato-regular
+          .price
+            font-size: 40px
+            margin-top: -8px
+            font-family: $lato-semibold
+
+.testimonial-page
+  background: $countup-background
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 430px
+  .testimonial-page-container
+    h3
+      font-family: $lato-light-italic
+      font-weight: 300
+      font-size: 28px
+    .testimonial-page-person
+      display: flex
+      align-items: center
+      justify-content: center
+      img
+        border-radius: 100%
+        width: 60px
+        height: 60px
+      .testimonial-page-person-name
+        display: inline-block
+        text-align: left
+        margin-left: 20px
+        h2
+          line-height: 1.5
+          font-size: 20px
+          letter-spacing: 0.2px
+          font-family: $lato-regular
+          font-weight: 300
+          margin: 0
+        h4
+          line-height: 1.5
+          font-size: 20px
+          letter-spacing: 0.2px
+          font-family: $lato-light
+          font-weight: 300
+          margin: 0
+.featured-in-page
+  display: flex
+  justify-content: center
+  height: 700px
+  .featured-in-page-container
+    h2
+      color: $countup-purple
+      font-size: 40px
+      font-family: $lato-light
+      font-weight: 300
+    hr
+      border: 0
+      width: 200px
+      height: 1px
+      background-color: $countup-dark-grey
+      margin-bottom: 50px
+    .featured-in-page-links-container
+      .featured-in-logo
+        width: 250px
+      .featured-in-logo-middle
+        margin: 0 50px
+
+.get-started-page
+  background: $countup-background
+  display: flex
+  justify-content: center
+  .get-started-page-container
+    h2
+      margin-top: 50px
+      font-size: 40px
+      font-family: $lato-light
+      font-weight: 300
+    button
+      border: 0
+      color: $countup-white
+      width: 270px
+      height: 55px
+      background-color: $countup-green
+      box-shadow: 0 2px 10px 0 $countup-black-box-shadow
+      font-size: 16px
+      letter-spacing: 1px
+      font-family: $lato-medium
+      font-weight: 300
+      margin: 100px 0px
+    footer
+      max-width: 1024px
+      border-top: 1px solid $countup-nav-bottom
+      padding: 20px 0px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      h6
+        font-family: $lato-regular
+        font-weight: 300
+        font-size: 14px
+        margin: 0px 0px 0px 30px
+      .footer-left
+        display: flex
+        align-items: center
+        justify-content: center
+      .footer-center
+        display: flex
+        justify-content: center
+        margin-right: 100px
+        h6
+          margin: 0
+      .footer-right
+        display: flex
+        justify-content: center
+        img
+          margin-left: 30px
+
+.bold
+  font-family: $lato-semibold
+
+.hidden
+  display: none !important
+
+.overlay
+  display: flex
+  justify-content: center
+  align-items: center
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 9999
+  height: 100%
+  width: 100%
+  background: rgba(0, 0, 0, 0.7)
+  text-align: left
+  .close-overlay
+    position: absolute
+    top: 30px
+    right: 30px
+    font-size: 54px
+    font-family: $lato-bold
+    &:hover
+      cursor: pointer
+  .overlay-container
+    overflow: scroll
+    box-sizing: border-box
+    padding: 30px 50px
+    background: $countup-purple
+    height: 75%
+    width: 75%
+    border-radius: 5px
+  .faq-container
+    .faq-question
+      padding-right: 100px
+      &:hover
+        cursor: pointer
+      h2
+        font-family: $lato-semibold
+        font-size: 22px
+      p
+        font-family: $lato-regular
+        font-size: 16px
+      br
+        content: " "
+  .privacy-container
+    h2
+      font-family: $lato-semibold
+      font-size: 22px
+    p
+      font-family: $lato-regular
+      font-size: 16px
+  .terms-container
+    h2
+      font-family: $lato-semibold
+      font-size: 22px
+    p
+      font-family: $lato-regular
+      font-size: 16px
+
+.floating
+  float: left
+  -webkit-animation-name: Floatingx
+  -webkit-animation-duration: 3s
+  -webkit-animation-iteration-count: infinite
+  -webkit-animation-timing-function: ease-in-out
+  -moz-animation-name: Floating
+  -moz-animation-duration: 3s
+  -moz-animation-iteration-count: infinite
+  -moz-animation-timing-function: ease-in-out
+  margin-left: 30px
+  margin-top: 5px
+
+.strike
+    position: relative
+    display: inline-block
+
+.strike::before
+    content: ''
+    border-bottom: 2px solid #fb686c
+    width: 100%
+    position: absolute
+    right: 0
+    top: 50%
+    -webkit-transform: rotate(45deg)
+    -moz-transform: rotate(45deg)
+    -ms-transform: rotate(45deg)
+    -o-transform: rotate(45deg)
+    transform: rotate(45deg)
+
+
+.red-msg
+  color: #fb686c
+  font-size: 14px
+  font-weight: bold
+
+@-webkit-keyframes Floatingx
+  from
+    -webkit-transform: translateY(0px)
+
+  65%
+    -webkit-transform: translateY(15px)
+
+  to
+    -webkit-transform: translateY(0px)
+
+
+@-moz-keyframes Floating
+  from
+    -moz-transform: translateY(0px)
+
+  65%
+    -moz-transform: translateY(15px)
+
+  to
+    -moz-transform: translateY(0px)

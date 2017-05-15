@@ -1,0 +1,21 @@
+
+.with_fixedheader{
+    padding-top:125px;
+}
+.landingpage_header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.option_liste_items li.get_started_btn{
+    display: none;
+}
+
+
+.accounting_work_area ul li{
+    margin-right: 23px;
+    margin-bottom: 25px;        
+}
