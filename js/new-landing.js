@@ -96,6 +96,7 @@ function showPHContent() {
     $("#monthly-price-ph-199").css("display" , "block");
     $("#monthly-price-ph-499").css("display" , "block");
       $("#intro-content-detail-ph-getstarted").css("display" , "block");
+      $(".non_ph_content").css("display" , "none");
 
       $("#arrowContent").css("display" , "none");
       mixpanel.track("PHLANDED");
