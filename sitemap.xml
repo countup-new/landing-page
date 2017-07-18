@@ -2,73 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
   <loc>https://countup.io/marketplace</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>http://countup.io/marketplace</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>https://countup.io/terms</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>https://countup.io/privacy</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>https://countup.io/accountants/</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>http://countup.io/www.CountUp.io/termsofuse</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>http://countup.io/cdn-cgi/l/email-protection</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
-  <loc>http://countup.io/cdn-cgi/l/email-protection#d4b5b0b9bdba9497bba1baa081a4fabdbb</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <loc>http://countup.io/cdn-cgi/l/email-protection#a1c0c5ccc8cfe1e2ced4cfd5f4d18fc8ce</loc>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
-  <loc>http://countup.io/cdn-cgi/l/email-protection#ea8b8e878384aaa9859f849ebf9ac48385</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <loc>http://countup.io/cdn-cgi/l/email-protection#c3a2a7aeaaad8380acb6adb796b3edaaac</loc>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>https://countup.io</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc>https://countup.io/accountants/howitworks</loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
 <url>
   <loc></loc>
-  <priority>0.5</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
   <lastmod>2017-07-19</lastmod>
 </url>
+</urlset>
