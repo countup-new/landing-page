@@ -9274,6 +9274,10 @@ a.btn-dblue:hover,
     text-decoration: none;
     width: 100%
 }
+html.modal-opened {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important
+}
 .notification {
     display: none;
     position: relative;
@@ -11838,7 +11842,7 @@ div.social.tiles .fb-like iframe {
 @font-face {
     font-family: BebasNeue;
     src: url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.eot");
-    src: url("//storage.googleapis.com/instapage-app-assets/563/font/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.woff2") format("woff2"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.woff") format("woff"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.ttf") format("truetype");
+    src: url("//storage.googleapis.com/instapage-app-assets/598/font/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.woff2") format("woff2"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.woff") format("woff"), url("//storage.googleapis.com/instapage-app-assets/font/bebasneue-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
